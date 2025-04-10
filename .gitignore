@@ -1,3 +1,5 @@
 .idea
 .python-version
 *.joblib
+.venv
+.ruff_cache
