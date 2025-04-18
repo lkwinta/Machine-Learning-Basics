@@ -17,12 +17,12 @@ dependencies = [
     "pynndescent",
     "scikit-fingerprints",
     "scikit-learn>=0.24",
-    "scikit-learn-extra",
     "seaborn",
     "sentence_transformers",
-    "numpy",
+    "numpy==1.*",
     "torch",
-    "tqdm"
+    "tqdm",
+    "scikit-learn-extra>=0.3.0",
 ]
 
 [dependency-groups]
