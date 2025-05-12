@@ -9,12 +9,14 @@ requires-python = "==3.11.*"
 
 dependencies = [
     "feature-engine",
+    "imbalanced-learn",
     "jupyter",
     "matplotlib",
     "pandas==2.*",
     "pillow",
     "pyarrow",
     "pynndescent",
+    "pyod",
     "scikit-fingerprints",
     "scikit-learn>=0.24",
     "seaborn",
@@ -23,6 +25,7 @@ dependencies = [
     "torch",
     "tqdm",
     "scikit-learn-extra>=0.3.0",
+    "xgboost",
 ]
 
 [dependency-groups]
